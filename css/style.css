@@ -240,6 +240,13 @@ grid-template-columns: 1fr 1fr;
 .icons__logo img{
     margin-left: 73px;
 }
+.madrid{
+    width: 100%;
+    height: 700px;
+    background: url('../images/fifth.png') no-repeat center;
+    display: flex;
+    align-items: center;
+}
 @media (min-width: 767px)and (max-width:1024px){
     .hero__input input[type="text"]{
         width: 303px;
