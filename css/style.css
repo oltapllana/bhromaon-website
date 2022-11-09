@@ -223,6 +223,23 @@ grid-template-columns: 1fr 1fr;
     align-items: center;
     padding-left: 200px;
 }
+.icons__logo{
+    margin-top: -40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.icons__logo p{
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: #E8E8E8;
+}
+.icons__logo img{
+    margin-left: 73px;
+}
 @media (min-width: 767px)and (max-width:1024px){
     .hero__input input[type="text"]{
         width: 303px;
