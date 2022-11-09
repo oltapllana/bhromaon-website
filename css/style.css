@@ -286,6 +286,7 @@ padding-left: 32px;
 .madrid__btn{
     margin-bottom: 70px;
 }
+
 @media (min-width: 767px)and (max-width:1024px){
     .hero__input input[type="text"]{
         width: 303px;
@@ -347,5 +348,11 @@ padding-left: 32px;
         width: 15%;
         height: auto;
         margin-left:40%;
+    }
+    .madrid__center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
