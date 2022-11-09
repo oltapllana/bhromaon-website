@@ -435,4 +435,22 @@ margin-right: 20px;
         align-items: center;
         flex-direction: column;
     }
+    .tourists__image-quotes{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin-right: 10%;
+
+    }
+    .tourists__image-quotes img{
+        width: 40%;
+        height: auto;
+        border-radius: 100%;
+        margin-left: 150px;
+        margin-top: 10px;
+        
+    }
+    .tourists__said{
+        font-size: 13px;
+    }
 }
