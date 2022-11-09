@@ -215,3 +215,49 @@ grid-template-columns: 1fr 1fr;
     height: 63px;
     margin-top: 45px;
 }
+@media (min-width: 767px)and (max-width:1024px){
+    .hero__input input[type="text"]{
+        width: 303px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    .hero__input input[type="text"]::placeholder{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .btn{
+        font-size: 10px;
+        width: 119px;
+        margin-left: 30%;
+        border-radius: 50px;
+        padding: 10px;
+    }
+    .hero__input{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .hero__search {
+        display: none;
+    }
+    .container{
+        max-width: 1024px;
+    }
+    .right-nav{
+        margin-right: 20px;
+    }
+    .chooseus{
+        padding-left: 30px;
+    }
+    .choose__images img:nth-child(2){
+        margin-top: 10px;
+        margin-left: 0px;
+
+    }
+    .left-nav{
+        padding-left: 20px;
+    }
+    .chooseus p{
+        font-size: 13px;
+    }
+   
+}
