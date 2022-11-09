@@ -304,8 +304,6 @@ table {
     margin-top: -40px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns:  1fr 1fr 1fr;
-        grid-template-columns: repeat(3,1fr);
 }
 .icons__logo p{
     font-family: 'Aleo';
