@@ -290,4 +290,16 @@ grid-template-columns: 1fr 1fr;
     .hero__scroll{
         display: none;
     }
+    .icons__logo p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .icons__logo{
+        margin-left: -30%;
+    }
+    .icons__logo img{
+        width: 15%;
+        height: auto;
+        margin-left:40%;
+    }
 }
