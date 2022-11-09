@@ -259,5 +259,10 @@ grid-template-columns: 1fr 1fr;
     .chooseus p{
         font-size: 13px;
     }
-   
+    br{
+        display: none;
+    }
+    .hero__scroll{
+        display: none;
+    }
 }
