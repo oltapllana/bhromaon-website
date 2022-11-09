@@ -168,3 +168,50 @@ table {
     line-height: 26px;
     text-transform: uppercase;
 }
+.chooseus{
+    width: 1770px;
+    height: 685px;
+    background: url('../images/second-image.png')no-repeat center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+.a{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.choose__subtitle{
+   
+    font-family: 'Aleo', sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.choose__text{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    margin-top: 50px;
+    color: #E8E8E8;
+}
+.choose__images{
+    display: flex;
+    flex-direction: column;
+}
+.choose__images img{
+    width: 350px;
+    height: auto;
+}
+.choose__images img:nth-child(2){
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.choose__btn{
+    width: 228px;
+    height: 63px;
+    margin-top: 45px;
+}
