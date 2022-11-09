@@ -180,7 +180,7 @@ table {
     font-style: normal;
     font-weight: 400;
 }
-.a{
+.choose__parent{
     display: grid;
 grid-template-columns: 1fr 1fr;
 }
@@ -510,7 +510,7 @@ margin-right: 20px;
         justify-content: center;
         flex-direction: column;
     }
-    .a{
+    .choose__parent{
         display: grid;
         grid-template-columns: 1fr;
         height: auto;
@@ -572,5 +572,53 @@ margin-right: 20px;
     .chooseus{
         margin-bottom: 0px;
     }
+    .madrid__center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .madrid__text, .madrid__text1{
+        width: auto;
+    }
+    .madrid__paragraph{
+        margin-top: 40px;
+    }
+    .tourists__subtitle{
+    
+font-size: 15px;  
+}
+    
+    .tourists__image-quotes{
+        display: grid;
+        grid-template-columns: 1fr;
+        background: transparent;
+    }
+    .tourists__image-quotes img{
+        width: 200px;
+        height: auto;
+        margin-left: 12%;
+        border-radius: 20px;
+    }
+    .tourists__said{
+        font-size: 12px;
+    }
+    .tourists__image-quotes{
+        position: relative;
+        top: -123px;
+    }
+    .hero__btn{
+        width: 100px;
+        height: 30px;
+        margin-left: 17%;
+        margin-top: 5px;
+    }
+    .hero{
+        height: 44.75rem;
+    }
+    .hero__scroll{
+        display: none;
+    }
 
+   
 }
