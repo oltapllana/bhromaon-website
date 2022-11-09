@@ -247,6 +247,45 @@ grid-template-columns: 1fr 1fr;
     display: flex;
     align-items: center;
 }
+.madrid__info{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: -30px;
+}
+.madrid__subtitle{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 19px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+}
+.madrid__text{
+    margin-top: 100px;
+    width: 53%;
+height: auto;
+    padding-top: 49px;
+    background: #232323;
+opacity: 0.9;
+padding-left: 32px;
+
+}
+.madrid__paragraph{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+}
+.madrid__btn{
+    margin-bottom: 70px;
+}
 @media (min-width: 767px)and (max-width:1024px){
     .hero__input input[type="text"]{
         width: 303px;
